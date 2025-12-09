@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chirayu TTS (Sarah)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Text to Speech</h1>
+    <div class="subtitle">
+      Voice: <strong>Sarah</strong> (ElevenLabs)
+    </div>
+
+    <textarea id="textInput" placeholder="Type or paste text here..."></textarea>
+
+    <div class="controls">
+      <button id="generateBtn">🔊 Generate Speech</button>
+      <div class="status" id="statusText"></div>
+    </div>
+
+    <div class="audio-wrapper" id="audioWrapper">
+      <strong>Preview:</strong>
+      <audio id="audioPlayer" controls></audio>
+      <div class="small">
+        If audio doesn’t play, right-click
+        <a id="downloadLink" href="#" download="output.mp3">this link</a>
+        and choose “Save link as…”
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
