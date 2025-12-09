@@ -1,5 +1,5 @@
 // ⚠️ put your real Render backend URL here:
-const API_BASE_URL = "https://YOUR-RENDER-APP.onrender.com";
+const API_BASE_URL = "https://ttsmaker-t8h5.onrender.com";
 
 const textInput = document.getElementById("textInput");
 const generateBtn = document.getElementById("generateBtn");
@@ -52,3 +52,4 @@ generateBtn.addEventListener("click", (e) => {
   e.preventDefault();
   generateSpeech();
 });
+
